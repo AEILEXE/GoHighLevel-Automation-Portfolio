@@ -10,7 +10,7 @@ My work focuses on designing practical automations, organizing CRM data, managin
 |---|---|---|---|
 | **BrightSmile CRM & Workflow Automation Demo** | Foundational lead intake, contact tagging, missing-information review, opportunity handling, and staff follow-up tasks | Existing project; documented tests and limitations | [View project](https://github.com/AEILEXE/Brightsmile-CRM-Automation-Demo) |
 | **Project 1 — Lead-to-Appointment System** | Form submission, contact tags, opportunity creation, appointment booking, and pipeline stage update | Tested demo; known limitation documented | [View project](https://github.com/AEILEXE/BrightSmile-Lead-to-Appointment-Automation) |
-| **Project 2 — Appointment Lifecycle Automation** | Appointment reminders, cancellation handling, visit-completed handling, no-show follow-up, rescheduling, and lifecycle testing | Built and tested demonstration; documentation/evidence package prepared; GitHub update pending | [View repository](https://github.com/AEILEXE/BrightSmile-Appointment-Lifecycle-Automation) |
+| **Project 2 — Appointment Lifecycle Automation** | Appointment reminders, cancellation handling, visit-completed handling, no-show follow-up, rescheduling, and lifecycle testing | Built and tested demonstration; documentation/evidence package prepared;| [View repository](https://github.com/AEILEXE/BrightSmile-Appointment-Lifecycle-Automation) |
 | **Project 3 — Lead Nurture & Re-engagement** | Lead segmentation, follow-up sequences, response-based branching, and stopping outreach when leads reply, book, opt out, or become ineligible | Planned / in development | [View repository](https://github.com/AEILEXE/BrightSmile-Lead-Nurture-Reengagement) |
 
 ## Featured Work
