@@ -6,13 +6,13 @@ A portfolio hub for CRM operations and GoHighLevel workflow automation. The proj
 
 ## Projects
 
-| Folder | Project | Focus | Evidence/status |
-|---|---|---|---|
-| [`BrightSmile-CRM-Workflow-Automation-Demo/`](BrightSmile-CRM-Workflow-Automation-Demo/) | BrightSmile CRM & Workflow Automation Demo | Foundational lead intake, missing-information review, CRM pipeline, follow-up task | Selected builder and execution-log screenshots; sanitized workbook |
-| [`Project-1-Lead-to-Appointment-System/`](Project-1-Lead-to-Appointment-System/) | Project 1 — Lead-to-Appointment System | Form intake, tags, opportunity creation, appointment-driven stage update | Workflow and execution evidence; cancellation-stage limitation documented |
-| [`Project-2-Appointment-Lifecycle-Automation/`](Project-2-Appointment-Lifecycle-Automation/) | Project 2 — Appointment Lifecycle Automation | Reminder checkpoints, cancellation, attendance, no-show handling | Selected redacted evidence; multiple-appointment defect and pending T1 documented |
-| [`Project-3-Lead-Nurture-Reengagement/`](Project-3-Lead-Nurture-Reengagement/) | Project 3 — Lead Nurture & Re-engagement | Rule-based nurture, stop tags, manual re-engagement eligibility | Workflow/canvas/log/status screenshots; reply-stop limitation documented |
-| [`Project-4-Lead-Qualification-Routing/`](Project-4-Lead-Qualification-Routing/) | Project 4 — Lead Qualification & Routing | Data-quality checks, classification tags, manual review | Five builder-test scenarios reported passing; live form trigger not verified |
+| Project | Focus | Evidence / Status |
+|---|---|---|
+| [BrightSmile CRM & Workflow Automation Demo](https://github.com/AEILEXE/Brightsmile-CRM-Automation-Demo) | Foundational lead intake, missing-information review, CRM pipeline, follow-up task | Selected screenshots and sanitized evidence |
+| [Project 1 — Lead-to-Appointment System](https://github.com/AEILEXE/BrightSmile-Lead-to-Appointment-Automation) | Form intake, tags, opportunity creation, appointment-driven stage update | Workflow and execution evidence |
+| [Project 2 — Appointment Lifecycle Automation](https://github.com/AEILEXE/BrightSmile-Appointment-Lifecycle-Automation) | Reminder checkpoints, cancellation, attendance, no-show handling | Redacted evidence and limitations |
+| [Project 3 — Lead Nurture & Re-engagement](https://github.com/AEILEXE/BrightSmile-Lead-Nurture-Reengagement) | Rule-based nurture, stop tags, manual re-engagement eligibility | Workflow, logs, and test evidence |
+| [Project 4 — Lead Qualification & Routing](https://github.com/AEILEXE/BrightSmile-Lead-Qualification-Routing) | Data-quality checks, classification tags, manual review | Five builder-test scenarios; live trigger not verified |
 
 ## Screenshot Preview
 
