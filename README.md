@@ -54,6 +54,3 @@ GoHighLevel · GitHub · Markdown · Mermaid · Excel/Google Sheets
 - Project 3 does not send outbound messages; its native reply-stop test was blocked.
 - Project 4 uses rule-based logic, not a live AI model. Its real form-submission trigger remains unverified because the workflow is kept in Draft.
 
-## Repository hygiene
-
-This compiled public package excludes raw audit-log exports, raw opportunity/contact exports, account-level contact/task details, and duplicate screenshot files. PNG screenshots are copied at original resolution without recompression. Review screenshots one final time before publishing to GitHub.
