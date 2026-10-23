@@ -1,0 +1,28 @@
+%% Matches the workflow as actually saved: BrightSmile | Lead Qualification & Routing (Draft)
+%% ID 2b335b2e-04f3-45d1-b56c-3a337d7ce0c1. Fictional portfolio scenario; rule-based, no AI integration.
+flowchart TD
+    T["Trigger: Form Submitted<br/>Filter: Form is PORTFOLIO DEMO - BrightSmile Inquiry Form"]
+    R["Remove Contact Tag: Clear prior P4 classification tags<br/>(only the 4 p4- tags; Remove all tags = off)"]
+    C{"If / Else: P4 Classify Inquiry<br/>first matching branch wins"}
+    B1["Branch 1: Manual - Service Missing<br/>service field is empty"]
+    B2["Branch 2: Needs Info - Phone Missing<br/>Phone is empty"]
+    B3["Branch 3: Priority - Braces Consultation<br/>service is Braces Consultation"]
+    B4["Branch 4: Standard - Mapped Service<br/>Dental Cleaning OR Teeth Whitening OR General Consultation"]
+    B5["Default: Manual - Unmapped Service<br/>none of the above, e.g. Other"]
+    T1a["Add tag p4-manual-review"]
+    T2a["Add tag p4-needs-information"]
+    T3a["Add tag p4-priority-review"]
+    T4a["Add tag p4-standard-review"]
+    T5a["Add tag p4-manual-review"]
+    N1["Add to notes: manual_review, service missing"]
+    N2["Add to notes: needs_information, phone missing"]
+    N3["Add to notes: priority_review, admin routing only, not medical urgency"]
+    N4["Add to notes: standard_review"]
+    N5["Add to notes: manual_review, unmapped service"]
+    E([End])
+    T --> R --> C
+    C --> B1 --> T1a --> N1 --> E
+    C --> B2 --> T2a --> N2 --> E
+    C --> B3 --> T3a --> N3 --> E
+    C --> B4 --> T4a --> N4 --> E
+    C --> B5 --> T5a --> N5 --> E

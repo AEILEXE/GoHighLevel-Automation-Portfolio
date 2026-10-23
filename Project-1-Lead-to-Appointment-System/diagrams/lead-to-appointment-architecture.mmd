@@ -1,0 +1,12 @@
+flowchart TD
+    A[Portfolio inquiry form submitted] --> B[Lead-to-Appointment workflow]
+    B --> C[Apply new-inquiry tag]
+    C --> D[Create opportunity in New Inquiry]
+    D --> E{Service interest?}
+    E -->|Braces Consultation| F[Priority review tag]
+    E -->|Missing interest| G[Missing-information tag]
+    E -->|Other recognized interest| H[General inquiry branch]
+    I[Customer books portfolio calendar] --> J[Appointment Booked workflow]
+    J --> K[Find existing open opportunity]
+    K -->|Found| L[Move existing opportunity to Appointment Booked]
+    K -->|Not found| M[End without creating an opportunity]

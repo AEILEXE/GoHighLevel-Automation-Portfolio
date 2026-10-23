@@ -1,0 +1,15 @@
+flowchart TD
+    A[Portfolio inquiry form submitted] --> B[Lead Nurture]
+    B --> C[Apply active tag and entry note]
+    C --> D[Wait / checkpoint]
+    D --> E{Stop tag present?}
+    E -->|Yes| F[Record stop and end]
+    E -->|No| G[Continue rule-based nurture]
+    G --> H[Completion tag and note]
+    I[Appointment booked on portfolio calendar] --> J[Lead Nurture Stop Handler]
+    J --> K[Apply stop tag and note]
+    L[Staff adds re-engagement eligibility tag] --> M[Lead Re-engagement]
+    M --> N[Wait and check stop tag]
+    N --> O{Stopped?}
+    O -->|Yes| P[End safely]
+    O -->|No| Q[Internal follow-up checkpoint and completion tag]
