@@ -12,7 +12,7 @@ A portfolio hub for CRM operations and GoHighLevel workflow automation. The proj
 | [Project 1 — Lead-to-Appointment System](https://github.com/AEILEXE/BrightSmile-Lead-to-Appointment-Automation) | Form intake, tags, opportunity creation, appointment-driven stage update | Workflow and execution evidence |
 | [Project 2 — Appointment Lifecycle Automation](https://github.com/AEILEXE/BrightSmile-Appointment-Lifecycle-Automation) | Reminder checkpoints, cancellation, attendance, no-show handling | Redacted evidence and limitations |
 | [Project 3 — Lead Nurture & Re-engagement](https://github.com/AEILEXE/BrightSmile-Lead-Nurture-Reengagement) | Rule-based nurture, stop tags, manual re-engagement eligibility | Workflow, logs, and test evidence |
-| [Project 4 — Lead Qualification & Routing](https://github.com/AEILEXE/BrightSmile-Lead-Qualification-Routing) | Data-quality checks, classification tags, manual review | Five builder-test scenarios; live trigger not verified |
+| [Project 4 — Lead Qualification & Routing](https://github.com/AEILEXE/BrigthSmile-Lead-Qualification-Routing) | Data-quality checks, classification tags, manual review | Five builder-test scenarios; live trigger not verified |
 
 ## Screenshot Preview
 
